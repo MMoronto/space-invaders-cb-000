@@ -1,3 +1,4 @@
+  
 class Spaceship {
   constructor(name, crew, phasers, shields) {
     this.name = name;
@@ -8,9 +9,9 @@ class Spaceship {
     this.warpDrive = 'disengaged';
     this.phasersCharge = 'uncharged';
     crew.length ? (this.docked = false) : (this.docked = true);
-    this.npotifyCrew();
+    this.notifyCrew();
   }
-  
+
   notifyCrew() {
     this.crew.forEach(crewMember => (crewMember.currentShip = this));
   }
