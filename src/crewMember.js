@@ -7,5 +7,9 @@ class CrewMember {
 
   }
   
+  setsInvisibility() {
+    
+  }
+  
   
 }
