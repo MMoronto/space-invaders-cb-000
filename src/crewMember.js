@@ -17,6 +17,7 @@ class CrewMember {
   }
   
   chargePhasers() {
-    
+    return this.position === 'Gunner' && this.currentShip !== 'Looking for a Rig'
+      
   }
 }
