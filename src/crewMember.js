@@ -5,7 +5,7 @@ class CrewMember {
   }
 
   engageWarpDrive() {
-    
+    return this.position === 'Pilot' && this.currentShip !== 'Looking for a Rig'
   }
   
   setsInvisibility() {
