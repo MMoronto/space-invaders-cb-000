@@ -11,5 +11,7 @@ class CrewMember {
     
   }
   
-  
+  chargePhasers() {
+    
+  }
 }
