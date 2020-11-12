@@ -12,6 +12,8 @@ class CrewMember {
   
   setsInvisibility() {
     return this.position === 'Pilot' && this.currentShip !== 'Looking for a Rig'
+      ? (this.currentShip.cloaked = true)
+      : 'had no effect';
   }
   
   chargePhasers() {
